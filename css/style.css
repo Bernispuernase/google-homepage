@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    overflow: hidden;
+    width: 99%;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #000
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .header li {
+        display:inline;
+        font-size: 13px;
+    }
+
+    #navigation_left {
+        float: left;
+    }
+
+    #navigation_right {
+        float:right;
+    }
+
+    .main img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .main {
+        position: relative;
+        top: 200px;
+        left: 30px;
+    }
