@@ -45,17 +45,47 @@ body {
     .search input {
         display: block;
         position: relative;
-        width: 300px;
         margin-left: auto;
         margin-right: auto;
+        width: 20%;
         top: 240px;
     }
 
-        button {
+    button {
         display: inline;
         position: relative;
         margin-left: auto;
         margin-right: auto;
         top: 260px;
         left: 44%
+    }
+    p {
+        font-size: small;
+        text-align: center;
+        position: relative;
+        top: 280px;
+        margin-bottom: 38%;
+    }
+
+     .location {
+        text-align: left;
+        display: inline;
+        padding-bottom: 10px;
+        margin-left: 41px;
+    }
+
+    footer li {
+        display:inline-block;
+    }
+
+    footer .footer_left li{
+        text-align: left;
+        float:left;
+        margin-right: 1%;
+    }
+
+    footer .footer_right li {
+        float: right;
+        text-align: right;
+        margin-right: 1%;
     }
