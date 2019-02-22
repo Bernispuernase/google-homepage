@@ -5,6 +5,7 @@ body {
     margin: auto;
     overflow: hidden;
     width: 99%;
+    box-sizing: border-box;
     }
 
     a:link {
@@ -19,6 +20,7 @@ body {
     .header li {
         display:inline;
         font-size: 13px;
+        margin-right: 15px;
     }
 
     #navigation_left {
