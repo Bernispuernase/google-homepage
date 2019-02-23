@@ -4,7 +4,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: auto;
     overflow: hidden;
-    width: 99%;
     box-sizing: border-box;
     }
 
@@ -18,17 +17,24 @@ body {
     }
 
     .header li {
-        display:inline;
+        display: inline-block;
         font-size: 13px;
-        margin-right: 15px;
+        margin-right: 10px;
+        margin-top: 10px;
+        opacity: 0.75
     }
 
     #navigation_left {
         float: left;
+        text-align: left;
+        margin-right: 7px;
+        width: 160px;
+
     }
 
     #navigation_right {
         float:right;
+        margin-right: 30px;
     }
 
     .main img {
@@ -41,7 +47,7 @@ body {
     .main {
         position: relative;
         top: 200px;
-        left: 30px;
+        left: 45px;
     }
 
     .search input {
@@ -49,8 +55,11 @@ body {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        width: 20%;
+        height: 40px;
+        width: 29%;
         top: 240px;
+        border-radius: 40px;
+        border: solid 0.13em #f2f2f2;
     }
 
     button {
@@ -60,6 +69,7 @@ body {
         margin-right: auto;
         top: 260px;
         left: 44%
+
     }
     p {
         font-size: small;
