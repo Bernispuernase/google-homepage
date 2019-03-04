@@ -15,6 +15,12 @@ body {
         text-decoration: underline;
     }
 
+    input:hover {
+        box-shadow: 1px 2px 3px 2px rgba(56, 56, 56, 0.274);
+        
+        
+    }
+
     .header li {
         display: inline-block;
         font-size: 13px;
@@ -82,15 +88,54 @@ body {
         text-align: center;
         position: relative;
         top: 280px;
-        margin-bottom: 36%;
+        margin-bottom: 35.5%;
     }
 
      .location {
+        font-size: 15px;
+        height: auto;
+        line-height: 18px;
         text-align: left;
-        display: inline-block;
-        padding: 8px 100% 8px 41px;
+        display: block;
+        padding-left: 41px;
         border-top: 1px solid #e4e4e4;
         width: 100%;
         background-color: #f2f2f2;
+        color: rgba(0,0,0,.54);
+        padding-top: 10px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-evenly;
+        background: #f2f2f2;
         color: #5F6368;
+    }
+
+
+
+    .footer .left {
+        grid-column: 1 / 2;
+        text-align: left;
+        list-style-type: none;
+        border-top: 1px solid #e4e4e4;
+        padding-right: 20px;
+        }
+
+    .footer .right {
+        grid-column: 2 / 2;
+        text-align: right;
+        padding-right: 15px;
+        list-style-type: none;
+        border-top: 1px solid #e4e4e4;
+    }
+
+    .footer .right li, .footer .left li {
+        display: inline-block;
+        margin-right: 22px;
+        font-size: 13px;
+        color: #5f6368;
+        padding-top: 10px;
+        text-transform: none;
     }
